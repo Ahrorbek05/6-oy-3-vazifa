@@ -1,0 +1,35 @@
+.tabs {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 600;
+}
+  
+.tab-one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.tab-second button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 16px;
+}
+    
+.tab-one button.active {
+    background-color: #007bff;
+    color: white;
+}
+  
+.tab-second {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+  

@@ -1,0 +1,38 @@
+.wrap{
+    margin: 50px auto;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 40px;
+    font-family: system-ui;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    background-image: url(https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg);
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    border: 1px solid #ababab;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrap h1{
+    text-align: center;
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    box-shadow: 0px 5px 15px rgb(15, 104, 30);
+}
