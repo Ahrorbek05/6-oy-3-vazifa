@@ -1,0 +1,33 @@
+.game-picker {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.game-picker h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+  
+.game-picker button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.game-picker button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+  
+.game-picker p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+  

@@ -1,0 +1,42 @@
+.progress-bar-container {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.progress-bar {
+    width: 500px;
+    height: 10px;
+    background-color: #e0e0df;
+    border-radius: 5px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+  
+.progress {
+    height: 100%;
+    background-color: #2600ff;
+    width: 0;
+    transition: width 0.3s ease-in-out;
+}
+  
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.buttons button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.buttons button:hover {
+    background-color: #0056b3;
+}
+  
